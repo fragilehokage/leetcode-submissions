@@ -1,5 +1,7 @@
 class Solution {
 public:
+    //tc:o(connections.size())
+    //sc:o(n)
 
         class dsu{
             public:
@@ -65,7 +67,7 @@ public:
             ds.unionBysize(c[0],c[1],extra);
         }
         // if(extra>n-1){
-            return extra-(connections.size()-(n)+1);
+            return extra-(connections.size()-(n)+1);//jo minimum n-1 chahiye uske baad jo bache wo operations chahiye hi ni na
         // }
         cout<<extra<<endl;
         return extra;
