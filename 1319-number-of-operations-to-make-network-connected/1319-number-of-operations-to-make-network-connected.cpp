@@ -60,16 +60,37 @@ public:
         };
     
     int makeConnected(int n, vector<vector<int>>& connections) {
-        if(connections.size()<n-1)return -1;//atleast n-1 connections chahiye na
+        //1st approach
+        // if(connections.size()<n-1)return -1;//atleast n-1 connections chahiye na
+        // dsu ds(n);
+        // int extra=0;
+        // for(auto c:connections){
+        //     ds.unionBysize(c[0],c[1],extra);
+        // }
+        // // if(extra>n-1){
+        //     return extra-(connections.size()-(n)+1);//jo minimum n-1 chahiye uske baad jo bache wo operations chahiye hi ni na //eqv to no.of connected components-1
+        // // }
+        // cout<<extra<<endl;
+        
+
+        //2nd approach :similar to above
+
         dsu ds(n);
         int extra=0;
         for(auto c:connections){
             ds.unionBysize(c[0],c[1],extra);
         }
-        // if(extra>n-1){
-            return extra-(connections.size()-(n)+1);//jo minimum n-1 chahiye uske baad jo bache wo operations chahiye hi ni na
-        // }
-        cout<<extra<<endl;
-        return extra;
+        int nc=0;//no.of connected components
+        for(int i=0;i<n;i++){
+            if(ds.findpar(i)==i){
+                nc++;
+            }
+        }
+        int ans=nc-1;
+        if(extra>=ans){//sufficient extra edges to re establish the connections to make all connected
+            return ans;
+        }
+        return -1;
+
     }
 };
