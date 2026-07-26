@@ -57,30 +57,30 @@ public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
         // vector<vector<string>>ans;
         int n=accounts.size();
-        map<string,int>m;
+        map<string,int>m;//to keep sorted order as required in question or can use unordered map and then sort them 
         dsu ds(n);
         for(int i=0;i<n;i++){
             for(int j=1;j<accounts[i].size();j++){
-                if(m.find(accounts[i][j])==m.end()){
+                if(m.find(accounts[i][j])==m.end()){//linking to a component
                     m[accounts[i][j]]=i;
-                }else{
+                }else{//component already existing so merging to it
                     ds.unionBysize(i,m[accounts[i][j]]);
                 }
             }
         }
-        vector<string>mails[n];
+        vector<string>mails[n];//to store mails under same component
         for(auto it:m){
             string mail=it.first;
-            int pu=ds.findpar(it.second);
+            int pu=ds.findpar(it.second);//ultimate parent for same component
             mails[pu].push_back(mail);
         }
         vector<vector<string>>ans;
         for(int i=0;i<n;i++){
-            if(mails[i].size()==0)continue;
+            if(mails[i].size()==0)continue;//the mailss are linked to another component
             vector<string>temp;
-            temp.push_back(accounts[i][0]);
+            temp.push_back(accounts[i][0]);//pushing the name
             for(string s:mails[i]){
-                temp.push_back(s);
+                temp.push_back(s);//pushing other mails
             }
             ans.push_back(temp);
         }
