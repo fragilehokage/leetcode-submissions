@@ -57,6 +57,8 @@ public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
         // vector<vector<string>>ans;
         int n=accounts.size();
+        // tc:o(n*m)//m :accounts length
+        //sc:o(n*n)//for arrsy of vector of mails
         map<string,int>m;//to keep sorted order as required in question or can use unordered map and then sort them 
         dsu ds(n);
         for(int i=0;i<n;i++){
