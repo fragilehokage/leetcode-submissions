@@ -28,10 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Union-Find
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
@@ -42,14 +44,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Hash Table
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+## String
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+## Sorting
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 <!---LeetCode Topics End-->
