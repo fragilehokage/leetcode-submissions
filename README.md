@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Union-Find
 |  |
@@ -65,4 +66,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 <!---LeetCode Topics End-->
