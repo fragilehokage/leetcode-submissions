@@ -29,12 +29,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
 ## Union-Find
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
@@ -46,12 +48,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/fragilehokage/leetcode-submissions/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Hash Table
 |  |
@@ -71,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Matrix
+|  |
+| ------- |
+| [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 <!---LeetCode Topics End-->
