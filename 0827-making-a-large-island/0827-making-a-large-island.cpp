@@ -56,6 +56,8 @@ public:
         };
 
     int largestIsland(vector<vector<int>>& grid) {
+        //tc:o(n*n)
+        //sc:o(n*n)
         int n=grid.size();
         int c0=0;
         for(int i=0;i<n;i++){
@@ -65,9 +67,9 @@ public:
                 }
             }
         }
-        if(c0==0){
+        if(c0==0){//all are 1s...so max is already formed
             return n*n;
-        }else if(c0==n*n){
+        }else if(c0==n*n){//there are all 0s so maximum 1 size 1 group can be formed
             return 1;
         }
         dsu ds(n*n);
@@ -82,7 +84,7 @@ public:
                         int nc=j+delc[k];
 
                         if(nr>=0 && nc>=0 && nr<n && nc<n && grid[nr][nc]==1){
-                            ds.unionBysize(i*n+j,nr*n+nc);
+                            ds.unionBysize(i*n+j,nr*n+nc);//forming components of 1s group
                         }
                     }
                 }
@@ -92,7 +94,7 @@ public:
         unordered_set<int>s;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(grid[i][j]==0){
+                if(grid[i][j]==0){//0->1 check and around its four direction..checking size of island if 0 is convertred to 1 and set is used for checking that the 1 are of differeent components if are surrounding  a 0 i.e. no extra components should be added.
                     int sum=0;
                      for(int k=0;k<4;k++){
                         int nr=i+delr[k];
