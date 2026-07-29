@@ -79,6 +79,7 @@ public:
 
 
         //2nd sol 
+        //most optimised
         //tc:0(stones.size)
         //sc:0(m+n) m:col n:row
         int n=stn.size();
