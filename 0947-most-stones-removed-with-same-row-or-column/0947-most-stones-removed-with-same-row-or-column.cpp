@@ -57,7 +57,7 @@ public:
     
     int removeStones(vector<vector<int>>& stn) {
         int n=stn.size();
-        dsu ds(n);
+        dsu ds(n);//treating row and column as a node i.e i,0 & 0,i elements all are present are treated as a node
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 if(stn[i][0]==stn[j][0]  || stn[i][1]==stn[j][1] ){
@@ -73,6 +73,11 @@ public:
             }
         }
         return n- numofconnectedcomp;
+        // int maxr=0;
+        // int maxc=0;
+        // for(int i=0;i<n;i++){
+        //     for()
+        // }
 
     }
 };
