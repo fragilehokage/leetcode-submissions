@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fragilehokage/leetcode-submissions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/fragilehokage/leetcode-submissions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Graph Theory
@@ -85,4 +86,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/fragilehokage/leetcode-submissions/tree/master/1192-critical-connections-in-a-network) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
