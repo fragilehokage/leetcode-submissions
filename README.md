@@ -93,8 +93,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/fragilehokage/leetcode-submissions/tree/master/3345-smallest-divisible-digit-product-i) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
+## Enumeration
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/fragilehokage/leetcode-submissions/tree/master/3345-smallest-divisible-digit-product-i) |
 <!---LeetCode Topics End-->
