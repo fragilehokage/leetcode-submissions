@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/fragilehokage/leetcode-submissions/tree/master/0070-climbing-stairs) |
+| [0198-house-robber](https://github.com/fragilehokage/leetcode-submissions/tree/master/0198-house-robber) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fragilehokage/leetcode-submissions/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/fragilehokage/leetcode-submissions/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Graph Theory
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/fragilehokage/leetcode-submissions/tree/master/0198-house-robber) |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
 | [0827-making-a-large-island](https://github.com/fragilehokage/leetcode-submissions/tree/master/0827-making-a-large-island) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/fragilehokage/leetcode-submissions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
