@@ -34,5 +34,7 @@ int f(int idx, vector<int>&dp,vector<int>&nums){
         int withoutfirst=f2(n-1,dp,nums);
 
         return max(withfirst,withoutfirst);
+
+        //same can be done with tabulation tooo
     }
 };
