@@ -27,26 +27,50 @@ public:
         // }
 
         if(n==1)return tri[n-1][0];
-        dp[0][0]=tri[0][0];
+        // dp[0][0]=tri[0][0];
         
-        for(int i=1;i<n;i++){
+        // for(int i=1;i<n;i++){
             
+        //     for(int j=0;j<=i;j++){
+        //         if(j>i )break;//iske aage exist ni karega n wo tri mein
+        //         int upleft=INT_MAX;
+        //         int up=INT_MAX;
+        //         if(j>0){
+        //             upleft=dp[i-1][j-1];
+        //         }
+        //         if(j<i){//if j==i then just uppar ni rahega n
+        //             up=dp[i-1][j];
+        //         }
+                
+        //         dp[i][j]=tri[i][j]+min(up,upleft);
+        //         if(i==n-1){
+        //             mini=min(dp[i][j],mini);
+        //         }
+        //     }
+        // }
+
+
+
+        vector<int>prev;
+        prev.push_back(tri[0][0]);
+        for(int i=1;i<m;i++){
+            vector<int>temp(i+1,0);
             for(int j=0;j<=i;j++){
-                if(j>i )continue;
                 int upleft=INT_MAX;
                 int up=INT_MAX;
                 if(j>0){
-                    upleft=dp[i-1][j-1];
+                    upleft=prev[j-1];
                 }
-                if(j<i){
-                    up=dp[i-1][j];
+                if(j<i){//if j==i then just uppar ni rahega n
+                    up=prev[j];
                 }
                 
-                dp[i][j]=tri[i][j]+min(up,upleft);
+                temp[j]=tri[i][j]+min(up,upleft);
                 if(i==n-1){
-                    mini=min(dp[i][j],mini);
+                    mini=min(temp[j],mini);
                 }
             }
+            prev=temp;
         }
         return mini;
     }
