@@ -19,13 +19,33 @@ public:
         int n=grid[0].size();
         vector<vector<int>>dp(m,vector<int>(n,-1));
         
-        int ans=f(m-1,n-1,grid,dp);
+        // int ans=f(m-1,n-1,grid,dp);
+        // for(int i=0;i<m;i++){
+        //     for(int j=0;j<n;j++){
+        //         cout<<dp[i][j]<<" ";
+        //     }
+        //     cout<<endl;
+        // }
+        // return ans;
+
+        dp[0][0]=grid[0][0];
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                cout<<dp[i][j]<<" ";
+                if(i==0 && j==0)continue;
+                int left=INT_MAX;
+                int up=INT_MAX;
+                if(i!=0){
+                    up=dp[i-1][j];
+                }
+                if(j!=0){
+                    left=dp[i][j-1];
+                }
+                dp[i][j]=grid[i][j]+min(left,up);
             }
-            cout<<endl;
         }
-        return ans;
+        return dp[m-1][n-1];
+
+
+
     }
 };
