@@ -28,35 +28,75 @@ public:
             // }
             // return mini;
 
+            // if(m==1){
+            //     for(int i=0;i<n;i++){
+            //         mini=min(mini,grid[0][i]);
+            //     }
+            // }else{
+            //      for(int i=0;i<n;i++){
+            //         dp[0][i]=grid[0][i];
+            //     }
+
+            //     for(int i=1;i<m;i++){
+            //         for(int j=0;j<n;j++){
+            //             int up=dp[i-1][j];
+            //             int upleft=INT_MAX;
+            //             int upright=INT_MAX;
+            //             if(j>0){
+            //                 upleft=dp[i-1][j-1];
+            //             }
+            //             if(j<n-1){
+            //                 upright=dp[i-1][j+1];
+            //             }
+            //             dp[i][j]=grid[i][j]+min(up,min(upleft,upright));
+            //             if(i==n-1){
+            //                 mini=min(mini,dp[i][j]);
+            //             }
+            //         }
+            //     }
+            // }
+           
+            // return mini;
+
+            //and can space optimise too
+
+
+            vector<int>prev;
             if(m==1){
                 for(int i=0;i<n;i++){
                     mini=min(mini,grid[0][i]);
                 }
             }else{
-                 for(int i=0;i<n;i++){
-                    dp[0][i]=grid[0][i];
-                }
-
+                  for(int i=0;i<n;i++){
+                    prev.push_back(grid[0][i]);
+                  }
+                  
                 for(int i=1;i<m;i++){
+                    vector<int>temp(n,0);
                     for(int j=0;j<n;j++){
-                        int up=dp[i-1][j];
+                        int up=prev[j];
                         int upleft=INT_MAX;
                         int upright=INT_MAX;
                         if(j>0){
-                            upleft=dp[i-1][j-1];
+                            upleft=prev[j-1];
                         }
                         if(j<n-1){
-                            upright=dp[i-1][j+1];
+                            upright=prev[j+1];
                         }
-                        dp[i][j]=grid[i][j]+min(up,min(upleft,upright));
+                        temp[j]=grid[i][j]+min(up,min(upleft,upright));
                         if(i==n-1){
-                            mini=min(mini,dp[i][j]);
+                            mini=min(mini,temp[j]);
                         }
                     }
+                    prev=temp;
                 }
+            
             }
-           
             return mini;
+
+            
+
+
             
         }
 };
