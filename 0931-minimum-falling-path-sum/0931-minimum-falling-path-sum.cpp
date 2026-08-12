@@ -23,9 +23,39 @@ public:
             int n=grid[0].size();
             vector<vector<int>>dp(m,vector<int>(n,INT_MIN));//contains negative entries too therefore using int_min instead of -1
             int mini=INT_MAX;
-            for(int i=0;i<n;i++){
-                mini=min(mini,f(m-1,i,grid,dp));//to check min of all last row indices
+            // for(int i=0;i<n;i++){
+            //     mini=min(mini,f(m-1,i,grid,dp));//to check min of all last row indices
+            // }
+            // return mini;
+
+            if(m==1){
+                for(int i=0;i<n;i++){
+                    mini=min(mini,grid[0][i]);
+                }
+            }else{
+                 for(int i=0;i<n;i++){
+                    dp[0][i]=grid[0][i];
+                }
+
+                for(int i=1;i<m;i++){
+                    for(int j=0;j<n;j++){
+                        int up=dp[i-1][j];
+                        int upleft=INT_MAX;
+                        int upright=INT_MAX;
+                        if(j>0){
+                            upleft=dp[i-1][j-1];
+                        }
+                        if(j<n-1){
+                            upright=dp[i-1][j+1];
+                        }
+                        dp[i][j]=grid[i][j]+min(up,min(upleft,upright));
+                        if(i==n-1){
+                            mini=min(mini,dp[i][j]);
+                        }
+                    }
+                }
             }
+           
             return mini;
             
         }
