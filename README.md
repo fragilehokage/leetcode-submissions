@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1584-min-cost-to-connect-all-points](https://github.com/fragilehokage/leetcode-submissions/tree/master/1584-min-cost-to-connect-all-points) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/fragilehokage/leetcode-submissions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/fragilehokage/leetcode-submissions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/fragilehokage/leetcode-submissions/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Union-Find
 |  |
 | ------- |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/fragilehokage/leetcode-submissions/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/fragilehokage/leetcode-submissions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/fragilehokage/leetcode-submissions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/fragilehokage/leetcode-submissions/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## String
 |  |
 | ------- |
