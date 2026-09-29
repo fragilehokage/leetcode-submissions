@@ -134,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/fragilehokage/leetcode-submissions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/fragilehokage/leetcode-submissions/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
