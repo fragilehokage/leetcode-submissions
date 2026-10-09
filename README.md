@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/fragilehokage/leetcode-submissions/tree/master/0721-accounts-merge) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/fragilehokage/leetcode-submissions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Sorting
 |  |
 | ------- |
@@ -140,4 +141,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0175-combine-two-tables](https://github.com/fragilehokage/leetcode-submissions/tree/master/0175-combine-two-tables) |
 | [0182-duplicate-emails](https://github.com/fragilehokage/leetcode-submissions/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/fragilehokage/leetcode-submissions/tree/master/0183-customers-who-never-order) |
+## Stack
+|  |
+| ------- |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/fragilehokage/leetcode-submissions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
+## Greedy
+|  |
+| ------- |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/fragilehokage/leetcode-submissions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/fragilehokage/leetcode-submissions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 <!---LeetCode Topics End-->
